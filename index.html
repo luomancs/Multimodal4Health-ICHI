@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="author" content="Tejas Gokhale">
+  <meta property="og:image" content="images/drum.png" />
+  <title>O-DRUM CVPR 2023</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="images/drum.png">
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" href="./favicon.png" type="image/png" />
+
+  <style>
+    body {
+      overflow-y: scroll;
+    }
+    .markdown-body h1 {
+      display: flex;
+    }
+    .markdown-body form {
+      margin-left: 10px;
+    }
+    .markdown-body input {
+      margin: 0;
+      padding: 0 10px;
+      border: 1px solid #eaecef;
+      border-radius: 3px;
+      width: 100%;
+      flex: 1 1;
+    }
+    table, tr, td {
+      border: none;
+    }
+    table.fixed {table-layout:fixed; width:90px;}/*Setting the table width is important!*/
+    table.fixed td {overflow:hidden;}/*Hide text outside the cell.*/
+    table.fixed td:nth-of-type(1) {width:250px;}/*Setting the width of column 1.*/
+    table.fixed td:nth-of-type(2) {width:250px;}/*Setting the width of column 2.*/
+    table.fixed td:nth-of-type(3) {width:250px;}/*Setting the width of column 3.*/
+    table.fixed td:nth-of-type(4) {width:250px;}/*Setting the width of column 4.*/
+    table.fixed td:nth-of-type(5) {width:250px;}/*Setting the width of column 5.*/
+  </style>
+</head>
+
+<body>
+<div class="container" style="background-color: #fcfcfc;">
+  <div class="row mb-3 justify-content-center">
+    <div class="col-md-3" style="font-family: Lato, Helvetica, arial, sans-serif;">
+      <img src="images/drum.png"  height=200px>
+    </div>
+    <div class="col-md-9">
+      <br>
+      <h1 >O-DRUM Workshop @ CVPR 2023</h1>
+      <h2 >Open-Domain Reasoning Under Multi-Modal Settings</h2>
+      <hr>
+      <h3> <a href="https://www.youtube.com/watch?v=R893pDrHdCI"> Video Recording </a></h3>
+      <big>
+        June 19, 2023 | 8:30 AM &ndash; 5:00 PM PDT | Vancouver 
+        <br/> <hr>ODRUM 2022 Archive: <a href="./archive_2022.html">[Webpage]</a> <a href="https://youtu.be/vxizyhlTRLU"> YouTube </a> 
+      </big>
+      <br>
+      <br>
+      <details>
+        <summary><big><b>Description</b></big></summary>
+        <p>
+          AI has undergone a paradigm shift in the past decade &ndash; the connection between vision and language (V+L) is now an integral part of AI, with deep impact beyond vision and NLP &ndash; robotics, graphics, cybersecurity, and HCI are utilizing V+L tools and there are direct industrial implications for software, arts, and media. The link between vision and language is much more complex than simple image--text alignment – the use of language for reasoning beyond the visible (for example, physical reasoning, spatial reasoning, commonsense reasoning, and embodied reasoning) is being pursued. Open-Domain Reasoning in Multi-Modal Settings (ODRUM 2023) provides a platform for discussions on multimodal (vision+language) topics with special emphasis on reasoning capabilities.
+        </p>
+        <p>
+          The aim of ODRUM 2023 is to address the emerging topic of visual reasoning using multiple modalities (such as text, images, videos, audio, etc.). The workshop will feature invited talks by experts in the realm of reasoning such as: embodied AI, navigation, learning via interaction and collaboration with humans, building large V+L that can perform multiple tasks, visual grounding, and the use of language to instruct robots. Participants and speakers will converge for a panel discussion to discuss the importance of reasoning (a core AI topic that has a rich and long history since the 1950s) to computer vision, relevance to recent progress in visual reasoning, discuss trends and challenges in open-domain reasoning, from different perspectives of NLP, vision, machine learning, and robotics researchers.
+        </p>
+      </details>
+    </div>
+    <hr/><br/>
+  </div>
+</div>
+
+
+<div class="container" style="background-color: #fcfcfc;">
+  <h2>Invited Speakers and Panelists</h2>
+  <div class="row col-md-12 justify-content-center">
+
+    <div class="profile">
+      <a href="https://www.robots.ox.ac.uk/~karel/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="images/karel.jpeg" >
+        <br><big><b>Karel Lenc</b></big>
+        <br/>Research Scientist
+        <br/>Deepmind
+      </a>
+      <br/>(Talk: 0845 &ndash; 0935 PDT)
+    </div>
+    <div class="profile">
+      <a href="https://jiajunwu.com/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="https://jiajunwu.com/images/Jiajun_Wu.jpg" >
+        <br><big><b>Jiajun Wu</b></big>
+        <br/>Assistant Professor
+        <br/>Stanford University
+      </a>
+      <br/>(Talk: 1040 &ndash; 1120 PDT) 
+      <br/>(Panel: 1600 &ndash; 1700 PDT)
+    </div>
+    <div class="profile">
+      <a href="https://cs.brown.edu/people/ssrinath/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="https://cs.brown.edu/people/ssrinath/images/www.jpg" >
+        <br><big><b>Srinath Sridhar</b></big>
+        <br/>Assistant Professor
+        <br/>Brown University
+      </a>
+      <br/>(Talk: 1130 &ndash; 1220 PDT) 
+    </div>
+
+    <div class="profile">
+      <a href="https://www.alanesuhr.com/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="images/alane.jpg" >
+        <br><big><b>Alane Suhr</b></big>
+        <br/>Young Investigator
+        <br/>Allen Institute for AI
+      </a>
+      <br/>(Talk: 1320 &ndash; 1410 PDT) 
+      <br/>(Panel: 1600 &ndash; 1700 PDT)
+    </div>
+
+    <div class="profile">
+      <a href="https://angelxuanchang.github.io/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="images/angel.jpg" >
+        <br><big><b>Angel Xuan Chang</b></big>
+        <br/>Assistant Professor
+        <br/>Simon Fraser University
+      </a>
+      <br/>(Talk: 1410 &ndash; 1500 PDT) 
+      <br/>(Panel: 1600 &ndash; 1700 PDT)
+    </div>
+
+
+    <div class="profile">
+      <a href="https://www.hamidpalangi.com/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="https://www.hamidpalangi.com/images/hamid_palangi_2021_b2.jpg" >
+        <br><big><b>Hamid Palangi</b></big>
+        <br/>Principal Researcher
+        <br/>Microsoft Research
+      </a>
+      <br/>(Panel: 1600 &ndash; 1700 PDT)
+    </div>
+
+    <div class="profile">
+      <a href="https://www.cs.unc.edu/~mbansal/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="https://www.cs.unc.edu/~mbansal/images/mb2019.png" >
+        <br><big><b>Mohit Bansal</b></big>
+        <br/>Professor
+        <br/>University of North Carolina
+      </a>
+      <br/>(Panel: 1600 &ndash; 1700 PDT)
+    </div>
+
+    <div class="profile">
+      <a href="https://anikem.github.io/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="https://anikem.github.io/images/profile_aniK.jpg" >
+        <br><big><b>Aniruddha Kembhavi</b></big>
+        <br/>Senior Director
+        <br/>Allen Institute for AI
+      </a>
+      <br/>(Panel: 1600 &ndash; 1700 PDT)
+    </div>
+  </div>
+</div>
+
+
+<br>
+<div class="container" style="background-color: #fcfcfc;">
+  <h2>Schedule</h2>
+  <div class="row col-md-12 justify-content-center">
+    <table>
+      <tr>
+        <td>08:30 &ndash; 08:45&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;Welcome and Introduction</td>
+      </tr>
+      <tr>
+        <td>08:45 &ndash; 09:35&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;Karel Lenc</td>
+        <td><i><b>Evaluating and Training Large Language Models with Vision Capabilities</b></i></td>
+      </tr>
+      <tr><td>09:35 &ndash; 10:00&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Spotlight Talks</td></tr>
+      <tr><td>10:00 &ndash; 10:40&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Poster Session + Coffee Break</td></tr>
+      <tr>
+        <td>10:40 &ndash; 11:30&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;Jiajun Wu</td>
+        <td><i><b>Concept Learning Across Domains and Modalities</b></i></td>
+      </tr>
+      <tr>
+        <td>11:30 &ndash; 12:20&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;Srinath Sridhar</td>
+        <td><i><b>Multi-modality in 3D Scene Understanding</b></i></td>
+      </tr>
+      <tr><td>12:20 &ndash; 13:20&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Lunch</td></tr>
+      <tr>
+        <td>13:20 &ndash; 14:10&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;Alane Suhr</td>
+        <td><i><b>Two Approaches to Grounded Language Evaluation</b></i></td>
+      </tr>
+      <tr>
+        <td>14:10 &ndash; 15:00&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;Angel Chang</td>
+        <td><i><b>Reasoning with language in 3D</b></i></td>
+      </tr>
+      <tr><td>15:00 &ndash; 16:00&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Poster Session 2 + Coffee Break + Socials</td></tr>
+      <tr><td>16:00 &ndash; 17:15&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Panel Discussion + Concluding Remarks</td></tr>
+    </table>
+  </div>
+  <br>
+</div>
+
+<br>
+<div class="container" style="background-color: #fcfcfc;">
+  <h2>Accepted Papers</h2>
+  <center><i><big>Link to <a href="https://openaccess.thecvf.com/CVPR2023_workshops/O-DRUM">O-DRUM 2023 Proceedings (on CVF Open Access)</a></big></i></center>
+  <br>
+  <div class="row col-md-12 justify-content-center">
+    <details><summary><big>Click here to display List of all accepted papers</big></summary>
+      <ul>
+      <li>
+        Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering
+        <br/> <i>Pan Lu (The University of California, Los Angeles)*; Swaroop Ranjan Mishra (self); Tony Xia (UCLA); Liang Qiu (University of California, Los Angeles); Kai-Wei Chang (UCLA); Song-Chun Zhu (ucla); Oyvind Tafjord (AI2); Peter Clark (Allen Institute for AI); Ashwin Kalyan (Georgia Institute of Technology)</i>
+      </li>
+      <li>
+        Dynamic Prompt Learning via Policy Gradient for Semi-structured Mathematical Reasoning
+        <i>Pan Lu (The University of California, Los Angeles)*; Liang Qiu (University of California, Los Angeles); Kai-Wei Chang (UCLA); Ying Nian Wu (University of California, Los Angeles); Song-Chun Zhu (ucla); Tanmay Rajpurohit (Georgia Institute of Technology); Peter Clark (Allen Institute for AI); Ashwin Kalyan (Georgia Institute of Technology)</i>
+      </li>
+
+      <li>TEVAD: Improved video anomaly detection with captions
+        <i>Weiling Chen (Hyundai Motor Group Innovation Center in Singapore)*; Keng Teck Ma ( Hyundai Motor Group Innovation Center in Singapore); Zi Jian Yew (Hyundai Motor Group Innovation Center in Singapore); Minhoe Hur (AIRS Company, Hyundai Motor Group); David AA Khoo (Hyundai Motor Group Innovation Center in Singapore)</i>
+      </li>
+
+      <li>VLMs and LLMs Can Help Detect Human-Object Interactions with Weak Supervision
+        <i>Mesut Erhan Unal (University of Pittsburgh)*; Adriana Kovashka (University of Pittsburgh)  </i>
+      </li>
+
+      <li>Enhancing the Role of Context in Region-Word Alignment for Object Detection
+        <i>Kyle R Buettner (University of Pittsburgh)*; Adriana Kovashka (University of Pittsburgh) </i>
+      </li>
+
+      <li>eP-ALM: Efficient Perceptual Augmentation of Language Models
+        <i>Mustafa Shukor (Sorbonne University)*; Corentin Dancette (Sorbonne Universite); Matthieu Cord (Sorbonne University)  </i>
+      </li>
+
+      <li>Peekaboo: Text to Image Diffusion Models are Zero-Shot Segmentors
+        <i>Ryan D Burgert (Stony Brook University); Kanchana N Ranasinghe (Stony Brook University)*; Xiang Li (Stony Brook University); Michael S Ryoo (Stony Brook/Google) </i>
+      </li>
+
+      <li>Generative Bias for Robust Visual Question Answering
+        <i>Jae Won Cho (KAIST)*; Dong-Jin Kim (Hanyang University); Hyeonggon Ryu (KAIST); In So Kweon (KAIST)  </i>
+      </li>
+
+      <li>Improving language-supervised object detection with linguistic structure analysis
+        <i>Arushi Rai (University of Pittsburgh)*; Adriana Kovashka (University of Pittsburgh)  </i>
+      </li>
+
+      <li>VEIL: Vetting Extracted Image Labels from In-the-Wild Captions for Weakly-Supervised Object Detection
+        <i>Arushi Rai (University of Pittsburgh)*; Adriana Kovashka (University of Pittsburgh)  </i>
+      </li>
+
+      <li>Boosting Weakly Supervised Object Detection using Hallucinated Depth
+        <i>Cagri Gungor (University of Pittsburgh)*; Adriana Kovashka (University of Pittsburgh)  </i>
+      </li>
+
+      <li>BMRN: Boundary Matching and Refinement Network for Temporal Moment Localization with Natural Language
+        <i>Muah Seol (ETRI); Jonghee Kim (ETRI); Jinyoung Moon (Electronics and Telecommunications Research Institute)* </i>
+      </li>
+
+      <li>Making the V in Text-VQA Matter
+        <i>Shamanthak Hegde (KLE Technological University, Hubballi)*; Soumya Shamarao Jahagirdar (International Institute of Information Technology Hyderabad); Shankar Gangisetty (IIIT Hyderabad ) </i>
+      </li>
+
+      <li>Weakly Supervised Visual Question Answer Generation
+        <i>Charani Alampalle (AlphaICs); Shamanthak Hegde (KLE Technological University, Hubballi)*; Soumya Shamarao Jahagirdar (International Institute of Information Technology Hyderabad); Shankar Gangisetty (IIIT Hyderabad ) </i>
+      </li>
+
+      <li>Visual Semantic Relatedness Dataset for Image Captioning
+        <i>Ahmed A Sabir (Universitat Politècnica de Catalunya)*; Francesc Moreno (IRI); Lluís Padró (Universitat Politècnica de Catalunya) </i>
+      </li>
+
+      <li>CLIP-Guided Vision-Language Pre-training for Question Answering in 3D Scenes
+        <i>Maria Parelli (ETH Zurich); Alexandros Delitzas (ETH Zurich)*; Nikolas Hars (ETH Zurich); Georgios Vlassis (ETH Zurich); Sotirios-Konstantinos Anagnostidis (ETH Zurich); Gregor Bachmann (ETH Zurich); Thomas Hofmann (ETH Zurich)  </i>
+      </li>
+
+      <li>T2V2T: Text-to-Video-to-Text Fusion for Text-to-Video Retrieval
+        <i>Jonghee Kim (ETRI)*; Youngwan Lee (ETRI); Jinyoung Moon (Electronics and Telecommunications Research Institute)  </i>
+      </li>
+
+      <li>An Examination of the Robustness of Reference-Free Image Captioning Evaluation Metrics
+        <i>Saba Ahmadi (University of Montreal, Mila)*; Aishwarya Agrawal (University of Montreal, Mila, DeepMind)  </i>
+      </li>
+
+      <li>Distilling from Vision-Language Models for Improved OOD Generalization in Image Classification
+        <i>Sravanti Addepalli (Indian Institute of Science)*; Ashish R Asokan (Indian Institute of Science); Lakshay Sharma (Indian Institute of Science); Venkatesh Babu RADHAKRISHNAN (Indian Institute of Science) </i>
+      </li>
+
+      <li>RMLVQA: A Margin Loss Approach For Visual Question Answering with Language Biases
+        <i>Abhipsa Basu (Indian Institute of Science, Bangalore)*; Sravanti Addepalli (Indian Institute of Science); Venkatesh Babu RADHAKRISHNAN (Indian Institute of Science) </i>
+      </li>
+
+      <li>ViperGPT: Visual Inference via Python Execution for Reasoning
+        <i>Dídac Surís (Columbia University); Sachit Menon (Columbia University)*; Carl Vondrick (Columbia University)  </i>
+      </li>
+
+      <li>Curriculum Learning for Data-Efficient Vision-Language Alignment
+        <i>Tejas Srinivasan (University of Southern California)*; Xiang Ren (University of Southern California); Jesse Thomason (University of Southern California) </i>
+      </li>
+
+      <li>VLN Pretraining Still Works with Nonsensical or Irrelevant Instructions
+        <i>Wang Zhu (University of Southern California)*; Ishika Singh (University of Southern California); Yuan Huang (University of Southern California ); Robin Jia (); Jesse Thomason (University of Southern California) </i>
+      </li>
+
+      <li>Distinguish and Rank hard-negatives to enhance compositional understanding
+        <i>LE ZHANG (mila)*; Aishwarya Agrawal (University of Montreal, Mila, DeepMind) </i>
+      </li>
+
+      <li>MAPL: Parameter-Efficient Adaptation of Unimodal Pre-Trained Models for Vision-Language Few-Shot Prompting
+        <i>Oscar Mañas (Mila - Quebec AI Institute, Université de Montréal)*; Pau Rodriguez (Apple); Saba Ahmadi (Mila - Quebec AI Institute, Université de Montréal); Aida Nematzadeh (DeepMind); Yash Goyal (Samsung - SAIT AI Lab Montreal); Aishwarya Agrawal (University of Montreal, Mila, DeepMind)  </i>
+      </li>
+
+      <li>In Search For A Good Prompt in Zero-shot Visual Question Answering
+        <i>Md Rabiul Awal (Mila)*; LE ZHANG (mila); Aishwarya Agrawal (University of Montreal, Mila, DeepMind)  </i>
+      </li>
+
+      <li>SQA3D: Situated Question Answering in 3D Scenes
+        <i>Xiaojian Ma (University of California, Los Angeles)* </i>
+      </li>
+    </ul>
+    </details>
+
+  </div>
+
+  <div class="row col-md-12 justify-content-center">
+    <details><summary><p style="font-size: 30px;font-weight: 800;">Poster Gallery</p></summary>
+    <embed src="posters_2023/poster_2.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_4.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_5.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_6.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_7.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_8.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_9.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_10.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_13.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_14.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_16.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_18.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_19.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_20.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_23.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_24.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_25.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_26.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_27.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_30.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_33.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_34.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_35.pdf#view=FitH" width="1000px" height="600px" />
+    <br/>
+    <embed src="posters_2023/poster_36.pdf#view=FitH" width="1000px" height="600px" />
+  </div>
+</details>
+</div>
+
+
+<br/>
+<div class="container" style="background-color: #fcfcfc;">
+  <h2>Organizers</h2>
+  <div class="row col-md-12 justify-content-center">
+    <div class="profile">
+      <a href="https://tejasgokhale.com">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="https://www.tejasgokhale.com/images/tejas/tg_hawaii_square.png">
+      <br><b>Tejas Gokhale</b></a>
+      <br>Assistant Professor
+      <br>UMBC
+    </div>
+    <div class="profile">
+      <a href="https://luomancs.github.io/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="images/man.jpg">
+      <br><b>Man Luo</b></a>
+      <br/>Postdoctoral Researcher
+      <br/>Mayo Clinic
+    </div>
+    <div class="profile">
+      <a href="https://yezhouyang.engineering.asu.edu/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="images/yezhou.png">
+      <br><b>Yezhou Yang</b></a>
+      <br>Associate Professor
+      <br>ASU
+    </div> 
+    <div class="profile">
+      <a href="https://www.public.asu.edu/~cbaral/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="images/cbaral.png">
+        <br><b>Chitta Baral</b></a>
+        <br>Professor
+        <br>ASU<br>
+    </div>
+    <div class="profile">
+      <a href="http://kennethmarino.com/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="images/kenny.PNG">
+      <br><b>Kenneth Marino</b></a>
+      <br>Research Scientist
+      <br>Deepmind
+    </div>
+    <div class="profile">
+      <a href="https://www.public.asu.edu/~zfang29/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="images/jacob.jpg">
+      <br><b>Zhiyuan Fang</b></a>
+      <br>Applied Scientist
+      <br>Amazon Alexa AI
+    </div>
+    <div class="profile">
+      <a href="https://pratyay-banerjee.github.io/">
+        <img class="profile_img" height="160px" style="border-radius:30%" src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=CtnHOHoAAAAJ&citpid=2">
+      <br><b>Pratyay Banerjee</b></a>
+      <br>Applied Scientist
+      <br>Amazon Alexa AI
+    </div>
+  </div>
+
+
+<!--     <h1>Call for Papers</h1>
+    We invite submissions related to the broad topic area of multi-modal understanding, reasoning and comprehension, including but not limited to following topics:
+    <ul>
+      <li> Visual Reasoning using multiple modalities such as images, videos, audio, and text </li>
+      <li> Visual Grounding with natural language </li>
+      <li> Embodied perception, such as vision--language navigation </li>
+      <li> Use of natural language, instructions, or other vision--language supervision in robotics </li>
+      <li> Collaborative and multimodal learning, with human interaction and/or feedback </li>
+      <li> Multimodal information retrieval </li>
+      <li> Methods of retrieval that facilitate additional tasks, such as image and video captioning, visual grounding, VQA, image generation, and graphics, among others
+      </li>
+      <li> Utilization of Retrieval in unsupervised/few-shot/zero-shot learning for data augmentation and generation. </li>
+      <li> New datasets or task designs for open-domain reasoning, use of knowledge bases in multimodal reasoning, or any other multimodal tasks </li>
+      <li> Modification and enhancement of existing multi-modal comprehension tasks, including VQA, VQA with Knowledge (e.g., OK-VQA, Web-QA, etc).</li>
+      <li> Design of new evaluation metrics for multimodal tasks </li>
+      <li> Analysis, commentary, or position pieces on existing evaluation metrics in multimodal tasks </li>
+      <li> Image and video analytics </li>
+      <li> Efficient and/or robust representation learning </li>
+      <li> Reliability and Robustness issues in multimodal learning and reasoning </li>
+      <li> The role of external knowledge in multimodal reasoning </li>
+      <li> Continual / Lifelong / Online multimodal learning </li>
+    </ul>
+    <p>
+      We encourage two types of submissions:
+      <ul>
+        <li> Extended abstracts (four pages plus an unlimited number of references) </li>
+        <li> Long papers (8 pages maximum with unlimited references) </li>
+      </ul>
+    </p>
+    <p>
+      All submitted materials must be anonymized and formatted according to the <a href="https://cvpr2023.thecvf.com/Conferences/2023/AuthorGuidelines"> CVPR 2023 author guidelines and template</a>. Accepted papers will be presented as posters at the workshop, where attendees, invited speakers, and organizers will engage in discussion. We intend to highlight three best papers during the workshop session with spotlight presentations. We will give authors of all accepted papers an option to opt-in or opt-out of CVPR proceedings.
+    </p>
+
+    <br/>
+    <h3>Important Dates:</h3>
+      <table border="1" cellpadding="15">
+        <tr>
+          <td>&diams; <i>Submission Deadline:</i>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;March 24, 2023, 23:59 PDT</td>
+        </tr>
+        <tr>
+          <td>&diams; <i>Notification of Decision:</i>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;March 31, 2023</td>
+        </tr>
+        <tr>
+          <td>&diams; <i>Camera Ready Deadline:</i>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;April 08, 2022 , 12:00 PDT</td>
+        </tr>
+        <tr>
+          <td>&diams; <i>Submission website (CMT):</i></td>
+          <td> <a href="https://cmt3.research.microsoft.com/ODRUM2023/">https://cmt3.research.microsoft.com/ODRUM2023/</a> </td>
+        </tr>
+      </table>
+      <br/>
+
+
+    <br/><hr/><br/> -->
+ 
+      <hr>
+      Please contact Man Luo (<a href="mailto: mluo26@asu.edu">mluo26@asu.edu</a>) or Tejas Gokhale (<a href="mailto: tgokhale@asu.edu">tgokhale@asu.edu</a>) for additional details
+      <hr>
+      <i> The workshop is supported by US National Science Foundation grants 1816039, 2132724 as part of Research, Education, and Outreach activities. </i>
+      <hr>
+      <p align='right'><i>Website maintained by Tejas Gokhale </i> </p>
+
+  </div>
+<!-- </div> -->
+</body>
+</html>
